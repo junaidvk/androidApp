@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B5998"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.baabtra.junaid.myfacebook.LogInActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/fb_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Email or Phone"/>
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="20dip"
+            android:background="#FFFFFF"
+            android:singleLine="true"/>
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Password"/>
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dip"
+            android:background="#FFFFFF"
+            android:singleLine="true"
+            android:password="true"/>
+        <Button android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#4E69A2"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dip"
+            android:text="Login"/>
+        <TextView android:id="@+id/link_to_register"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:layout_marginBottom="10dip"
+            android:text="Sign Up"
+            android:gravity="center"
+            android:textSize="8dip"
+            android:textColor="#FFFFFF"/>
+        <TextView android:id="@+id/frgt_paswrd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="40dip"
+            android:text="Forgot Password?"
+            android:gravity="center"
+            android:textSize="8dip"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</RelativeLayout>

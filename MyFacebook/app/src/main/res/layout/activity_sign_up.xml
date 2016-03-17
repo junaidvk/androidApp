@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B5998"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.baabtra.junaid.myfacebook.SignUpActivity">
+
+    <TextView android:id="@+id/frst_sign"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="10dip"
+        android:text="Sign Up"
+        android:gravity="left"
+        android:textSize="60dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:hint="First Name"
+        android:background="#FFFFFF"
+        android:id="@+id/id_frname"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="10dp" />
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:hint="Second Name"
+        android:background="#FFFFFF"
+        android:id="@+id/id_scname"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="190dp" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:hint="Email or Mobile Number"
+        android:background="#FFFFFF"
+        android:id="@+id/id_email"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="10dp" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:hint="Re-enter Email or Mobile Number"
+        android:background="#FFFFFF"
+        android:id="@+id/id_re"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:inputType="textPersonName"
+        android:hint="New Password"
+        android:background="#FFFFFF"
+        android:id="@+id/id_pass"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Birthday"
+        android:textSize="15dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="10dp"/>
+    <DatePicker
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:id="@+id/datePicker"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"/>
+    <Button android:id="@+id/btnsignup"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:background="#4E69A2"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="250dp"
+        android:text="Sign Up"/>
+    <TextView
+        android:id="@+id/truee"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="10dp"
+        android:text="By clicking Sign Up,you agree to our Terms and that you have read our Data User Policy,Including our Google user."
+        android:gravity="left"
+        android:textSize="8dip"
+        android:textColor="#000000"/>
+
+</RelativeLayout>
